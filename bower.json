@@ -1,18 +1,22 @@
 {
   "name": "c3-hands-on",
-  "version": "0.0.0",
-  "authors": [
-    "morygonzalez@kaizenplatform.com"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "private": true,
   "dependencies": {
-    "c3": "~0.4.10"
+    "bootstrap-sass": "~3.3.5",
+    "c3": "~0.4.10",
+    "modernizr": "~2.8.3"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
   }
 }
