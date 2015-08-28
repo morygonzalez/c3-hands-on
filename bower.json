@@ -1,0 +1,15 @@
+{
+  "name": "c3-hands-on",
+  "version": "0.0.0",
+  "authors": [
+    "morygonzalez@kaizenplatform.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
