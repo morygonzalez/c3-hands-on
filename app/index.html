@@ -45,6 +45,8 @@
         <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
       </div>
 
+      <div id="chart"></div>
+
       <div class="row marketing">
         <div class="col-lg-6">
           <h4><a href="https://html5boilerplate.com/">HTML5 Boilerplate</a></h4>
@@ -107,6 +109,19 @@
       e.src='https://www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      (function() {
+        var chart = c3.generate({
+          bindto: '#chart',
+          data: {
+            columns: [
+              ['うんち', 30, 200, 100, 400, 150, 250, 30, 200, 100, 400, 150, 250],
+              ['おなら', 50, 20, 10, 40, 15, 25, 30, 20, 10, 40, 10, 20]
+            ]
+          }
+        });
+      })();
     </script>
   </body>
 </html>
