@@ -5,6 +5,7 @@
     "bootstrap-sass": "~3.3.5",
     "c3": "~0.4.10",
     "gulp": "~3.9.0",
+    "lodash": "~3.10.1",
     "modernizr": "~2.8.3"
   },
   "overrides": {
